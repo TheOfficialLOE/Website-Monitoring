@@ -51,8 +51,8 @@ bot.command("monitor", async (ctx) => {
     websiteId: newWebsite.id,
     threshold,
   }, {
-    // repeat: {
-    //   every: interval * 60 * 1000
-    // }
+    repeat: {
+      every: interval * 60 * 1000
+    }
   });
 });
